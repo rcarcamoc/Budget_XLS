@@ -1,0 +1,53 @@
+# Project exclude paths
+/.gradle/
+/src/
+
+# === Android Studio / Gradle ===
+.gradle/
+build/
+*/build/
+local.properties
+*.iml
+.idea/
+.externalNativeBuild/
+.cxx/
+captures/
+output.json
+
+# === Archivos generados automáticamente ===
+*.hprof
+java_pid*.hprof
+*.log
+*.bak
+*.tmp
+
+# === VS Code / Cursor ===
+.vscode/*
+!.vscode/extensions.json  # permite compartir solo las extensiones recomendadas
+.history/                 # extensión "Local History"
+.code-workspace
+cursor.lock
+cursor.json
+
+# === Archivos del sistema ===
+.DS_Store
+Thumbs.db
+*.swp
+*.swo
+
+# === Linux (específicos de Ubuntu) ===
+*~
+
+# === Archivos de test/instrumentación (si no deseas trackear resultados) ===
+test-results/
+
+# Google Services
+/app/google-services.json
+
+# Keystore files
+*.jks
+*.keystore
+
+# Firebase Service Account Credentials
+/finanzaspersonales-461602-firebase-adminsdk-fbsvc-ad5cc11bd5.json
+/finanzaspersonales-461602-firebase-adminsdk-fbsvc-db10ddcf97.json
